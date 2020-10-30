@@ -99,7 +99,7 @@ function clickDapAn4() {
 function common(dapAnDung) {
     if (dsCauHoi[viTriCauHoi].dapAnDung == dapAnDung) {
         viTriCauHoi += 1;
-        // alert('Bạn đã trả lời đúng');
+        alert('Bạn đã trả lời đúng');
 
         dienNDCauHoi();
     } else {
